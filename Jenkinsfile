@@ -10,9 +10,9 @@ pipeline {
     }
 
     environment {
-        IMAGE_NAME = "venkateshjaggaraju/static-webapp"
-        IMAGE_TAG = "v1"
-        DOCKERHUB_CREDENTIALS = "dockerhub-creds"
+        IMAGE_NAME = "karthikan123/bantu1"
+        IMAGE_TAG = "latest"
+        DOCKERHUB_CREDENTIALS = "dockerhub-3153"
     }
 
     stages {
